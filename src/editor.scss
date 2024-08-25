@@ -1,0 +1,51 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-wptom-animated-call-to-action {
+	border: 1px dotted blue;
+}
+
+
+/* src/components/IconDropdown.css */
+.icon-dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.icon-dropdown-button {
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	cursor: pointer;
+}
+
+.icon-dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	z-index: 1000;
+	max-height: 200px; /* Set the maximum height */
+	height: 200px;
+	overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.icon-dropdown-item {
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	width: 100%;
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.icon-dropdown-item:hover {
+	background-color: #f0f0f0;
+}
